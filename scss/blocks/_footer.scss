@@ -18,7 +18,6 @@
     margin: 0;
     padding: 0;
     margin-left: 59px;
-    margin-top: 41px;
     display: flex;
     list-style: none;
   }
@@ -76,6 +75,7 @@
     &__list {
       flex-direction: column;
       align-items: center;
+      margin-top: 41px;
       margin-bottom: 58px;
       margin-left: 0;
     }
