@@ -1,0 +1,67 @@
+.sing-up {
+  padding-top: 100px;
+  background-color: #495567;
+  background-image: url(../../images/sing-up-back.png);
+  background-repeat: no-repeat;
+  background-size: 1440px 246px;
+  background-position: center bottom -96px;
+
+  &__container {
+    padding: 102px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__heading {
+    margin: 0;
+    padding: 0;
+    max-width: 415px;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+  }
+
+  &__link {
+    margin-right: 12px;
+  }
+
+  &__right {
+    max-width: 370px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .sing-up {
+    background-image: url(../../images/sing-up-tab.png);
+    background-size: 768px 150px;
+    background-position: center bottom;
+
+    padding-top: 52px;
+
+    &__container {
+      flex-direction: column;
+      padding: 62px 20px;
+    }
+
+    &__heading {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .sing-up {
+
+    padding-top: 60px;
+
+    &__heading {
+      font-size: 32px;
+      line-height: 32px;
+    }
+
+   
+  }
+}
