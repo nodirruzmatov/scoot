@@ -1,1 +1,22 @@
-//bu yerda buttonlar yashaydi
+.sitebtn {
+  margin: 0;
+  padding: 0;
+  padding: 14px 39px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FCB72B;
+  border: 3px solid transparent;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: #fff;
+    color: #FCB72B;
+    border: #FCB72B 3px solid;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+}
