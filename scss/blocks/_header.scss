@@ -21,6 +21,10 @@
   .site-logo {
     margin-right: 58px;
   }
+
+  &__bg {
+    display: none;
+  }
 }
 
 
@@ -42,7 +46,18 @@
     .header--open &__hamburger {
       background-image: url(../../images/hamburger-x.png);
       background-size: 18px 18px;
-
+    }
+    
+    .header--open &__bg {
+      display: inline-block;
+      position: absolute;
+      top: 100%;
+      left: 68%;
+      width: 32%;
+      height: 100vh;
+      background-color: #000000;
+      mix-blend-mode: normal;
+      opacity: 0.75;
     }
   }
 }
