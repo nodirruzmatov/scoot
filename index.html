@@ -16,7 +16,11 @@
       <div class="header__hamburger"></div>
 
       <a href="#">
-        <img src="./images/scoot.svg" width="108" height="29" alt="" class="site-logo">
+        <picture>
+          <source media="(max-width:768px)" srcset="./images/scoot2.png">
+          <img src="./images/scoot.svg" style="width: auto;" width="108" height="29" alt="" class="site-logo">
+        </picture>
+        
       </a>
 
       <nav class="sitenav">
@@ -41,13 +45,64 @@
 
       </nav>
 
+      <div class="header__bg"></div>
       <div></div>
       
     </div>
   </header>
 
   <!-- !MAIN -->
-  <main class="main"></main>
+  <main class="main">
+
+    <!-- !HERO -->
+    <section class="hero">
+      <div class="container hero__container">
+
+        <h1 class="hero__heading">Scooter sharing made simple</h1>
+        <p class="hero__desc">Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!</p>
+        <a href="#" class="sitebtn hero__link">Get scootin</a>
+
+      </div>
+    </section>
+
+    <!-- !INSTRUCTION -->
+    <section class="instruction">
+      <div class="container instruction__container">
+        
+        <h2 class="visually-hidden">instruction</h2>  
+
+        <ul class="instruction__list">
+          
+          <li class="instruction__item">
+            <img src="./images/instruction1.svg"  width="96" height="96" alt="phone icon">
+            
+            <div>
+              <h3 class="instruction__heading">Locate with app</h3>
+              <p class="instruction__desc">Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. </p>
+            </div>
+          </li>
+
+          <li class="instruction__item">
+            <img src="./images/instruction2.svg" width="96" height="96" alt="scooter icon">
+            <div>
+              <h3 class="instruction__heading">Pick your scooter</h3>
+              <p class="instruction__desc">We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.</p>
+            </div>
+          </li>
+
+          <li class="instruction__item">
+            <img src="./images/instruction3.svg" width="96" height="96" alt="phone icon">
+            <div>
+              <h3 class="instruction__heading">Enjoy the ride</h3>
+              <p class="instruction__desc">Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.</p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+  </main>
 
   <!-- !FOOTER -->
   <footer class="footer"></footer>
